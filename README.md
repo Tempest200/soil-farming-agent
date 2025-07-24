@@ -57,7 +57,19 @@ src/
 ------------------------------------
 🧭 Workflow: How to Use the Web App
 -----------------------------------
+
+[🔗 View the Live Demo](https://Tempest200.github.io/soil-farming-agent)  
+
+
 Go to the Login Page
+
+Example :-
+ For Admin id:- admin@gmail.com     
+           pass:-123456
+ 
+ For User id:- user@gmail.com
+            pass:-123456
+
 
 Click Register if you're a new user
 
