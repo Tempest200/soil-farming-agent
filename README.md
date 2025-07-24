@@ -3,8 +3,9 @@ Soil Farming Agent
 A web application built with React and Firebase to help users explore soil types and recommended crops, along with vendor information. The system supports Admins (who manage content) and Users (who can register, login, and view data).
 
 🔧 Features
-
+------------
 👤 User
+---------
 
 Register and login securely using Firebase Authentication
 
@@ -15,6 +16,7 @@ View seed/crop distributors with location and contact info
 Logout functionality for session management
 
 🛠 Admin
+----------
 
 Login securely
 
