@@ -1,0 +1,84 @@
+/* src/Components/AdminDashboard.css */
+
+.admin-dashboard {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-dashboard h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  margin-left: 250px;
+}
+.admin-header {
+  display: flex;
+ justify-content: center;
+  
+  flex-direction: row;
+  align-items: center;
+  
+}
+.logout1 {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 200px;
+ 
+}
+.exit-logo {
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.admin-form h3 {
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.admin-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.admin-form input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.admin-form button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-form button:hover {
+  background-color: #2980b9;
+}

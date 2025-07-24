@@ -1,0 +1,80 @@
+/* src/Components/UserDashboard.css */
+.user-dashboard2{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #ffffff;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+  font-style: italic;
+  font-weight: 900;
+  font-size: large;
+  background-color: #1B3C53;
+}
+.user-dashboard {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  background-color: #D2C1B6;
+  min-height: 100vh;
+}
+
+.user-dashboard h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: xx-large;
+  color: #666666;
+}
+
+.user-header {
+  display: flex;
+ justify-content: center;
+  
+  flex-direction: row;
+  align-items: center;
+  
+}
+.logout2 {
+  background-color: #456882;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: flex-end;
+  justify-items: end;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 50rem;
+ 
+}
+
+
+
+.section {
+  background: #F9F3EF;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h3 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+.section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.section li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  color: #444;
+}
+
+.section li:last-child {
+  border-bottom: none;
+}
