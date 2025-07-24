@@ -70,7 +70,7 @@ Example :-
            pass:-123456
  
  For User id:- user@gmail.com
-            pass:-123456
+      pass:-123456
 
 
 Click Register if you're a new user
