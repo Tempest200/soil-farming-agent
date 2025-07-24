@@ -8,7 +8,8 @@ import UserDashboard from './Components/UserDashboard';
 
 const App = () => {
   return (
-    <Router>
+    <BrowserRouter basename="/soil-farming-agent">
+      
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
@@ -16,7 +17,7 @@ const App = () => {
         <Route path="/admin" element={<AdminDashboard />} />
         <Route path="/user" element={<UserDashboard />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 };
 
