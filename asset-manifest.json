@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/soil-farming-agent/static/css/main.babb55bf.css",
+    "main.js": "/soil-farming-agent/static/js/main.80eed936.js",
+    "static/js/453.b4bfb9a9.chunk.js": "/soil-farming-agent/static/js/453.b4bfb9a9.chunk.js",
+    "index.html": "/soil-farming-agent/index.html",
+    "main.babb55bf.css.map": "/soil-farming-agent/static/css/main.babb55bf.css.map",
+    "main.80eed936.js.map": "/soil-farming-agent/static/js/main.80eed936.js.map",
+    "453.b4bfb9a9.chunk.js.map": "/soil-farming-agent/static/js/453.b4bfb9a9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.babb55bf.css",
+    "static/js/main.80eed936.js"
+  ]
+}
