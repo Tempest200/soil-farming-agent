@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+Soil Farming Agent
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application built with React and Firebase to help users explore soil types and recommended crops, along with vendor information. The system supports Admins (who manage content) and Users (who can register, login, and view data).
 
-## Available Scripts
+🔧 Features
 
-In the project directory, you can run:
+👤 User
 
-### `npm start`
+Register and login securely using Firebase Authentication
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+View a list of soil types and their suitable crops
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+View seed/crop distributors with location and contact info
 
-### `npm test`
+Logout functionality for session management
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🛠 Admin
 
-### `npm run build`
+Login securely
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Post new soil details (soil type, crops)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Post new distributor/vendor details
+ ---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Technologies Used
 
-### `npm run eject`
+- **React** – front-end library for building UI
+- **JavaScript** – countdown logic and state management
+- **HTML5** – semantic structure
+- **CSS3** – custom styling
+-**Firebase** - back-end 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📁 Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+src/
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+├── Components/
 
-## Learn More
+│   ├── Login.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+│   ├── Register.js
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+│   ├── AdminDashboard.js
 
-### Code Splitting
+│   ├── UserDashboard.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+│   └── ...
 
-### Analyzing the Bundle Size
+├── firebase.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+├── App.js
 
-### Making a Progressive Web App
+└── index.js
+------------------------------------
+🧭 Workflow: How to Use the Web App
+-----------------------------------
+Go to the Login Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Click Register if you're a new user
 
-### Advanced Configuration
+Choose a role: admin or user
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Admins:
 
-### Deployment
+Login and post soil and distributor information
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Users:
 
-### `npm run build` fails to minify
+Login and access the User Dashboard
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+View soil details and vendor contact info
+
+Use the Logout button to exit your session
+
+
+🛡 Firebase Firestore Structure
+
+roles (Collection)
+├── {uid} → { role: "admin" | "user" }
+
+soils (Collection)
+├── {autoId} → { type: "Clay", crops: ["Wheat", "Cotton"] }
+
+vendors (Collection)
+├── {autoId} → { name: "AgroCorp", location: "Nashik", phone: "1234567890" }
+
+
+-------------------------------
+
+📌 Future Enhancements
+
+Search/filter functionality for soil and vendors
+
+Admin edit/delete capability
+
+UI Improvements with animations
