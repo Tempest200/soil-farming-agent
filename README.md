@@ -21,7 +21,7 @@ Login securely
 Post new soil details (soil type, crops)
 
 Post new distributor/vendor details
- ---
+
 
 ## 🛠️ Technologies Used
 
