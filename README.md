@@ -91,7 +91,7 @@ Use the Logout button to exit your session
 
 
 🛡 Firebase Firestore Structure
-
+-------------------------------
 roles (Collection)
 ├── {uid} → { role: "admin" | "user" }
 
